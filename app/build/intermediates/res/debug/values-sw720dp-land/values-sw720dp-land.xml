@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/values-sw720dp-land/attrs.xml -->
+    <eat-comment/>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+    </declare-styleable>
+    <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/imageAvatarMessenger"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"></com.android.volley.toolbox.NetworkImageView>
+
+        <TextView
+            android:id="@+id/txtUserNameMessenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageAvatarMessenger"
+            android:text="Mr. Jason" />
+
+        <TextView
+            android:id="@+id/txtLastMessenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUserNameMessenger"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageAvatarMessenger"
+            android:text="Have a nice day!"
+            android:textColor="#80000000"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/txtDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:layout_gravity="right"
+            android:text="7:26 AM"
+            android:textColor="#80000000"
+            android:textSize="12dp" />
+    </RelativeLayout>
+</LinearLayout>

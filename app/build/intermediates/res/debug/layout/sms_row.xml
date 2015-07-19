@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/backgroup_messenger"
+        android:shadowColor="#FFF"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Medium Text"
+        android:textColor="@color/textColor"
+        android:textSize="15dp" />
+
+</LinearLayout><!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/layout/sms_row.xml -->

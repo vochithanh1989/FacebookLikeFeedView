@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ln12">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/avata"
+            android:layout_marginLeft="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avatar4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mr.Jason"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/avata"
+            android:id="@+id/txtnameuser" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/avata"
+            android:layout_below="@+id/txtnameuser"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:text="very bad...............!"
+            android:id="@+id/txttextcomment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttextcomment"
+            android:layout_toRightOf="@+id/avata"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:layout_marginTop="2dp"
+            android:text="1 hour ago . Like "/>
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/layout/item_list_comment.xml -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feed_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/feed_item_margin"
+        android:layout_marginRight="@dimen/feed_item_margin"
+        android:background="@drawable/bg_parent_rounded_corner"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/lvcomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="2dp"
+                android:layout_marginBottom="35dp" />
+
+            <ImageView
+                android:id="@+id/btnAddComment"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pic_commnet"
+                android:visibility="gone"
+                android:layout_alignTop="@+id/edtComment"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true" />
+
+            <ImageView
+                android:id="@+id/pic_up"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/pic_up" />
+
+
+            <EditText
+                android:id="@+id/edtComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/pic_up"
+                android:layout_toLeftOf="@id/btnAddComment"
+                android:hint="Write a comment..." />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/layout/activity_comment.xml -->

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+      <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:title="search"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_nav"
+        android:showAsAction="ifRoom"
+        android:title="share"/>
+
+    </menu>
+<!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/menu/main.xml -->

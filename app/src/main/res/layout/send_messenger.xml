@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/realanh2"
+        android:divider="#fff"
+        android:background="#fff"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/realanh2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/realanh"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/imganh"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_photo_off" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/edtcmtn"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Write a message..."
+            android:background="#00ffffff"
+            android:gravity="center_vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#3f000000"></View>
+
+        <RelativeLayout
+            android:id="@+id/realcmtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:onClick="sendMessage"
+            android:layout_toRightOf="@+id/edtcmtn">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic_commnet" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

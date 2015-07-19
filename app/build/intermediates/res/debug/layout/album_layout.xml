@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <info.androidhive.listviewfeed.SlidingTab.SlidingTabAlbumLayout
+        android:id="@+id/tabAlbums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </info.androidhive.listviewfeed.SlidingTab.SlidingTabAlbumLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v4.view.ViewPager>
+</LinearLayout><!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/layout/album_layout.xml -->

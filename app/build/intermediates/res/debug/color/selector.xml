@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="#3b5998" />
+    <item android:state_focused="true" android:color="@android:color/darker_gray" />
+    <item android:state_pressed="true" android:color="#00d99d" />
+    <item android:color="#d3d6db" />
+</selector><!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/color/selector.xml -->

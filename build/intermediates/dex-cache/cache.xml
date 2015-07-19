@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-48119385dde983ea2ea6472a1cfbdc65675136e1.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-aca3efb6bf1327b14dc60f17b9d3b0946984661f.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-87fb979ee832a45dfc3808247349cc1bb1f0a019.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-90187065e6f20d72e6d35c5dde4d9f6c0dc42fd7.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-6daf5c684627dc83687011a2a1b8a2eb9367f3b1.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-b76f108ca4b6d472ffa5e3aa3bd53bb13d0d5b36.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-f4855c81b5ce4a9a9cadb40729a0326edb1d8698.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-11c9c1e17bd8e574fe607597f42e39ffac4fb1f9.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-f520067c3e68ec0f4c35d3b11c57d0dd448d711e.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-d5b181c3da890b399273b510ced1732061f15314.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-f5c31b4cc9040fcced64fc8622716b77a5fa35db.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-c0061fa7e4a6da33b585c75431ce74c95d3888e9.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-f56d0af63810f9e7a8326a1cf211a2d59a64b82f.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-ab14605913a981e8d048f0721e465700dfb1c8fe.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-4851939816d13fedef7da7d0edddafaae772950c.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/Facebook Like FeedView/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a5098f539c06d956bb418c33ab79d49ad7aadeed">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-56982c901d19dd0c22a11e2a934d7eab6ef55643.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-d02801b50fbbbea38d5256e49ad8052c308a58ed.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-92c0a1d04397dfca00168e1b700c3b7c2ef5a37d.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-73fb16b3d902a9fad71a595b50ecede07ba725cc.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/gson-2.3.1-15f481c17f9e063a7f2cce5a712a812f90c8b032.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-953b46bbc19536e9933986c6eaa3b74c0d6327b4.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-dda31886328c81d4287e920c770b822804b059cc.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.17/f417d7f776d1ee5858fc04d9362aa45e9bedd26b/library-1.0.17.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f417d7f776d1ee5858fc04d9362aa45e9bedd26b">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/library-1.0.17-02c5abb308a2d7704ab1878f6a861955663b9957.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-7c05f25e9d4abaf21cc8bd5d06c42e519ec3ae82.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-a1bc8ab50c4974a1824efe03faa3ed7a74713865.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-5cadc88b159292a4877e151c008bd99901f6dc6a.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-f8302312034b63b88b323f48064916dfca6078f8.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-64f4a9c88c098ad9e2e14e1f03e517f51d2f2b3e.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/picasso-2.3.2-512a695923deadf6142dd65dc5247c31ed3907c8.jar" />
+    </item>
+    <item
+        jar="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/home/thanhitbk/App/Facebook Like FeedView/app/build/intermediates/pre-dexed/debug/classes-0a3da95c4e44ded3eba36a31b91712e1876c465a.jar" />
+    </item>
+
+</items>
