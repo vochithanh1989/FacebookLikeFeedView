@@ -3,7 +3,6 @@ package info.androidhive.listviewfeed;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -32,9 +31,9 @@ public class VideoActivity extends Activity {
         mediaControls.setAnchorView(myVideoView);
         myVideoView.setMediaController(mediaControls);
 
-        Uri vidUri = Uri.parse(path);
-        myVideoView.setVideoURI(vidUri);
-        //myVideoView.setVideoPath(path);
+        //Uri vidUri = Uri.parse(path);
+        //myVideoView.setVideoURI(vidUri);
+        myVideoView.setVideoPath(path);
         myVideoView.start();
     }
 
