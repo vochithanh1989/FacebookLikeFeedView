@@ -42,7 +42,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="info.androidhive.listviewfeed.SlidingTab.MainActivity"
+            android:name="info.androidhive.listviewfeed.SplashScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,6 +50,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="info.androidhive.listviewfeed.SlidingTab.MainActivity" />
+        <activity android:name="info.androidhive.listviewfeed.LoginActivity" />
         <activity android:name="info.androidhive.listviewfeed.AlbumActivity" />
         <activity android:name="info.androidhive.listviewfeed.CommentActivity" />
         <activity android:name="info.androidhive.listviewfeed.MessageActivity" />

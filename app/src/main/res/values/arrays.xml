@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner">
+        <item>"Đăng lên Facebook"</item>
+        <item>"Trên dòng thời gian của một người bạn"</item>
+        <item>"Trong nhóm"</item>
+        <item>"Trên trang của bạn"</item>
+    </array>
+</resources>

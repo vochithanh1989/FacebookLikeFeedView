@@ -1,6 +1,7 @@
 package info.androidhive.listviewfeed.Tab;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,7 +12,9 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.animation.TranslateAnimation;
 import android.widget.AbsListView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import com.android.volley.Cache;
 import com.android.volley.Request;
@@ -64,7 +67,7 @@ public class News extends Fragment {
         View view = inflater.inflate(R.layout.news_layout, container, false);
         listView = (PullToRefreshListView) view.findViewById(R.id.list);
 
-        mHeader=inflater.inflate(R.layout.header_news,null);
+        mHeader = inflater.inflate(R.layout.header_news, null);
         listView.addHeaderView(mHeader);
 
         mQuickReturnView = (LinearLayout) view.findViewById(R.id.footer);
@@ -77,7 +80,44 @@ public class News extends Fragment {
                 new GetDataTask().execute();
             }
         });
+//Status
+        RelativeLayout status_2 = (RelativeLayout) mHeader.findViewById(R.id.lner);
+        status_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(getActivity(), R.style.FullHeightDialog);
+                dialog.setContentView(R.layout.item_status);
 
+                ImageView img_back = (ImageView) dialog.findViewById(R.id.img);
+                img_back.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.cancel();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+        //End Status
+        RelativeLayout status_1= (RelativeLayout) mHeader.findViewById(R.id.relative_status);
+        status_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog dialog = new Dialog(getActivity(), R.style.FullHeightDialog);
+                dialog.setContentView(R.layout.item_status);
+
+                ImageView img_back = (ImageView) dialog.findViewById(R.id.img);
+                img_back.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.cancel();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
 
         // We first check for cached request
         Cache cache = AppController.getInstance().getRequestQueue().getCache();
@@ -158,7 +198,7 @@ public class News extends Fragment {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        //------
+        //show footer
         listView.getViewTreeObserver().addOnGlobalLayoutListener(
                 new ViewTreeObserver.OnGlobalLayoutListener() {
                     @Override
@@ -240,7 +280,7 @@ public class News extends Fragment {
             public void onScrollStateChanged(AbsListView view, int scrollState) {
             }
         });
-        //-----
+        //End show footer
     }
 
     private class GetDataTask extends AsyncTask<Void, Void, String[]> {

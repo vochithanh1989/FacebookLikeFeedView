@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <array name="spinner">
+        <item>"Đăng lên Facebook"</item>
+        <item>"Trên dòng thời gian của một người bạn"</item>
+        <item>"Trong nhóm"</item>
+        <item>"Trên trang của bạn"</item>
+    </array>
     <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -103,6 +111,7 @@
     <color name="textColor">#fff</color>
     <color name="textFieldColor">#000</color>
     <color name="timestamp">#a0a3a7</color>
+    <color name="tv_color">#477ce6</color>
     <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
@@ -380,38 +389,38 @@
     <style name="Animations"/>
     <style name="Animations.PopDownMenu"/>
     <style name="Animations.PopDownMenu.Center">
-            <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
-            <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
     <style name="Animations.PopDownMenu.Left">
-            <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
-            <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
     <style name="Animations.PopDownMenu.Reflect">
-            <item name="@android:windowEnterAnimation">@anim/pump_top</item>
-            <item name="@android:windowExitAnimation">@anim/disappear</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
     <style name="Animations.PopDownMenu.Right">
-            <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
-            <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
     <style name="Animations.PopUpMenu"/>
     <style name="Animations.PopUpMenu.Center">
-            <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
-            <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
     <style name="Animations.PopUpMenu.Left">
-            <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
-            <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
     <style name="Animations.PopUpMenu.Reflect">
-            <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
-            <item name="@android:windowExitAnimation">@anim/disappear</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/disappear</item>
+    </style>
     <style name="Animations.PopUpMenu.Right">
-            <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
-            <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
-        </style>
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
@@ -1277,6 +1286,13 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
+    <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="FullHeightDialog" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- From: file:/home/thanhitbk/App/Facebook%20Like%20FeedView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values/values.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
